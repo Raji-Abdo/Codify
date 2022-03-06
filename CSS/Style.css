@@ -22,7 +22,6 @@
 		opacity: 1;
 	}
 }
-
 .logo {
 	width: 300px;
 	height: 300px;
@@ -33,21 +32,13 @@
 	margin-top: 160px;
 	margin-bottom: 20px;
 }
-.js-logo {
-	transition: transform .5s;
-}
-.js-logo:hover {
-	transform: scale(1.1);
-}
-.html-logo {
-	transition: transform .5s;
-}
-.html-logo:hover {
-	transform: scale(1.1);
-}
+.js-logo,
+.html-logo,
 .css-logo {
 	transition: transform .5s;
 }
+.js-logo:hover,
+.html-logo:hover,
 .css-logo:hover {
 	transform: scale(1.1);
 }
@@ -180,9 +171,6 @@
 }
 .css-ex3:hover {
 	background-image: url(../Images/c2-result.png);
-}
-.crer {
-	text-align: end;
 }
 .back {
 	height: 100%;
