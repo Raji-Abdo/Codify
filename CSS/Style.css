@@ -84,14 +84,11 @@
 .card-ex2 {
 	width: 250px;
 	height: 150px;
-	background-image: url(../Images/h2.png);
 	background-size: 100%;
 	margin-top: -110px;
 	margin-left: 720px;
 }
-.card-ex2:hover {
-	background-image: url(../Images/h2-result.png);
-}
+
 .card-ex3 {
 	width: 400px;
 	height: 130px;
