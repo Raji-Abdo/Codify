@@ -1,23 +1,28 @@
 .dif-anim {
 	animation: def 3s;
 }
+
 .main-anim {
 	animation: main 2s;
 }
+
 @keyframes def {
 	0% {
 		opacity: 0;
 		transform: translateY(-100px);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
 	}
 }
+
 @keyframes main {
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
@@ -27,34 +32,43 @@
 	width: 300px;
 	height: 300px;
 }
+
 .logo-main {
 	width: 225px;
 	height: 300px;
 	margin-top: 160px;
 	margin-bottom: 20px;
 }
+
 .js-logo {
 	transition: transform .5s;
 }
+
 .js-logo:hover {
 	transform: scale(1.1);
 }
+
 .html-logo {
 	transition: transform .5s;
 }
+
 .html-logo:hover {
 	transform: scale(1.1);
 }
+
 .css-logo {
 	transition: transform .5s;
 }
+
 .css-logo:hover {
 	transform: scale(1.1);
 }
+
 .p-2 {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
+
 .choix {
 	margin-top: 500px;
 	margin-bottom: 100px;
@@ -64,9 +78,11 @@
 	border-top: transparent;
 	border-bottom: transparent;
 }
+
 .h1-html {
 	margin-top: 40px;
 }
+
 .card {
 	width: 210px;
 	height: 350px;
@@ -75,9 +91,11 @@
 	margin-top: -150px;
 	margin-left: 800px;
 }
+
 .card:hover {
 	background-image: url(../Images/h-result.png);
 }
+
 .titres {
 	background-color: #ffe5d1;
 	border: solid 30px #e2ae87;
@@ -90,6 +108,7 @@
 	margin-right: 230px;
 	margin-bottom: 50px;
 }
+
 .card-ex2 {
 	width: 250px;
 	height: 150px;
@@ -98,9 +117,11 @@
 	margin-top: -110px;
 	margin-left: 720px;
 }
+
 .card-ex2:hover {
 	background-image: url(../Images/h2-result.png);
 }
+
 .card-ex3 {
 	width: 400px;
 	height: 130px;
@@ -109,9 +130,11 @@
 	margin-top: -170px;
 	margin-left: 620px;
 }
+
 .card-ex3:hover {
 	background-image: url(../Images/h3-result.png);
 }
+
 .titres-3 {
 	background-color: #ffe5d1;
 	border: solid 30px #e2ae87;
@@ -124,12 +147,14 @@
 	margin-right: 230px;
 	margin-bottom: 100px;
 }
+
 .colors {
 	width: 1000px;
 	height: 160px;
 	background-size: 100%;
 	background-image: url(../Images/color.png);
 }
+
 .titres-css {
 	background-color: #b2ebff;
 	border: solid 30px #58adcc;
@@ -142,12 +167,15 @@
 	margin-right: 230px;
 	margin-bottom: 50px;
 }
+
 .blu {
 	text-decoration: blue;
 }
+
 .gree {
 	text-decoration: green;
 }
+
 .css-ex2 {
 	width: 426px;
 	height: 336px;
@@ -155,9 +183,11 @@
 	margin-top: -270px;
 	margin-left: 600px;
 }
+
 .css-ex2:hover {
 	background-image: url(../Images/c-result.png);
 }
+
 .titres3-css {
 	background-color: #b2ebff;
 	border: solid 30px #58adcc;
@@ -170,6 +200,7 @@
 	margin-right: 230px;
 	margin-bottom: 100px;
 }
+
 .css-ex3 {
 	width: 466px;
 	height: 180px;
@@ -178,12 +209,15 @@
 	margin-top: -170px;
 	margin-left: 570px;
 }
+
 .css-ex3:hover {
 	background-image: url(../Images/c2-result.png);
 }
+
 .crer {
 	text-align: end;
 }
+
 .back {
 	height: 100%;
 	width: 100%;
