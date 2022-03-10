@@ -1,4 +1,4 @@
 # Codify
  My First Website - Codify
 
- This ss a work in progress school project.
+ This is a work in progress school project.
